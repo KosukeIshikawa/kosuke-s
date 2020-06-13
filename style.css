@@ -1,0 +1,50 @@
+.header-cover{
+    background-image: url(https://cdn.pixabay.com/photo/2018/10/13/15/00/sunset-3744333_960_720.jpg);
+    width: 100%;
+    height: 750px;
+    position: relative;
+    background-size: cover;
+
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.navbar a{
+    color: white;
+
+}
+
+.nav-item{
+    padding: 10px;
+}
+.navbar .nav-item:hover{
+    border-bottom: 1px solid white;
+}
+
+.contents{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform:translate(-50%, -30%);
+    color: white;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+
+}
+
+.p-img{
+    width: 50%;
+    height: auto;
+}
+
+.container ul{
+    list-style: none;
+
+}
